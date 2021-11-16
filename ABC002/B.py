@@ -1,1 +1,2 @@
-print(input().translate(str.maketrans({"a": "", "i": "", "u": "", "e": "", "o": ""})))
+table = str.maketrans({"a": "", "i": "", "u": "", "e": "", "o": ""})
+print(input().translate(table))
